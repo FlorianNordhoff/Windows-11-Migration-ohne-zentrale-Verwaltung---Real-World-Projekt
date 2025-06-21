@@ -1,5 +1,5 @@
 
-# Windows 11 Migration ohne zentrale Verwaltung – Ein Praxisprojekt
+# Windows 11 Migration ohne zentrale Verwaltung
 
 ## Einleitung
 

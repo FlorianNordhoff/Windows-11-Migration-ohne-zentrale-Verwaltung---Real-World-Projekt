@@ -11,7 +11,7 @@ from getmac import get_mac_address
 
 WEBHOOK_URL = "xxxxxxxxx"
 
-# -------------------------- Benutzer --------------------------
+# Benutzer auslesen
 def get_username():
     username = os.getenv("USERNAME")
     if username and "." in username:
@@ -48,7 +48,7 @@ def get_user_accounts():
 
     return users, formatted_last_user
 
-# -------------------------- Hardware --------------------------
+# Hardware auslesen
 def get_hardware_info():
     try:
         wmi_conn = wmi.WMI()
@@ -76,7 +76,7 @@ def get_drive_info():
             continue
     return drives
 
-# -------------------------- Software --------------------------
+# Software auslesen
 def get_installed_software():
     software = []
     try:
@@ -96,7 +96,7 @@ def get_installed_software():
         print(f"[Fehler] Registry-Zugriff fehlgeschlagen: {e}")
     return software
 
-# -------------------------- Netzwerk --------------------------
+# Netzwerk auslesen
 def get_network_info():
     return {
         "Computername": socket.gethostname(),
@@ -106,7 +106,7 @@ def get_network_info():
         "HWID": f"HWID: {uuid.getnode()}",
     }
 
-# -------------------------- Zusammenführen --------------------------
+# Zusammenführen der Daten
 def collect_system_info():
     serial_number, model = get_hardware_info()
     users, last_user = get_user_accounts()
@@ -124,7 +124,7 @@ def collect_system_info():
     info.update(get_network_info())
     return info
 
-# -------------------------- Webhook --------------------------
+# An den Webhook senden
 def send_to_webhook(data, url):
     try:
         response = requests.post(
@@ -137,7 +137,7 @@ def send_to_webhook(data, url):
     except requests.RequestException as err:
         print(f"[Fehler] Webhook-Senden fehlgeschlagen: {err}")
 
-# -------------------------- Main --------------------------
+# Main
 if __name__ == "__main__":
     system_info = collect_system_info()
     send_to_webhook(system_info, WEBHOOK_URL)

@@ -7,17 +7,16 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 
 Die Durchführung dieser Migration stellte uns vor Herausforderungen:
 
-- Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch der zentrale Zugriff auf Endgeräte stark eingeschränkt war.
-- Microsoft Intune stand in dieser Phase noch nicht zur Verfügung, was eine zentrale Verwaltung und automatisierte Verteilung unmöglich machte.
-- Ein standardisiertes Windows-11-Image sollte erstellt werden, wofür alle genutzten Anwendungen identifiziert und paketiert werden mussten.
+- Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch der zentrale Zugriff auf Endgeräte stark eingeschränkt war. Somit stand Microsoft Intune oder andere zentrale Verwaltungswerkzeuge nicht zu Verfügung.
 - Die Softwareausstattung variierte stark zwischen den Nutzenden und war nicht dokumentiert.
-- Die Paketierung der Anwendungen für die spätere Verteilung über Intune war aufgrund fehlender Standards und Informationen äußerst aufwendig.
+- Viele Endgeräte waren im IT-Service-Management-System (ITSM) unvollständig erfasst oder gar nicht registriert.
+- Die mangelhafte Datenlage erschwerte die Planung, Priorisierung und Umsetzung der Migration erheblich.
 
 ## Lösung
 
 ### Erfassung der genutzten Software und Systeminformationen
 
-Da wir keinen direkten Zugriff auf die Endgeräte der Nutzer hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows-10-Systemen ausgelesen und dokumentiert werden konnte. Die Nutzer wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
+Da wir keinen direkten Zugriff auf die Endgeräte der Clients hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows-10-Systemen ausgelesen und dokumentiert werden konnte. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
 
 ### Erstellung des Windows 11 Images
 

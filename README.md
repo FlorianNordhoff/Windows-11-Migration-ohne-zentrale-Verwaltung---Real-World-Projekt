@@ -5,7 +5,7 @@
 
 Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025 werden Updates des Betriebssystems nicht mehr kostenlos zu Verfügung gestellt. Dies öffnet insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken, die dann nicht mehr geschossen werden. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Für unser Unternehmen ergab sich daraus ein dringender Handlungsbedarf. Eine zeitnahe Migration auf Windows 11 ist unerlässlich.
 
-Die Durchführung dieser Migration stellte uns vor Herausforderungen:
+## Herausforderungen:
 
 - Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch der zentrale Zugriff auf Endgeräte stark eingeschränkt war. Somit stand Microsoft Intune oder andere zentrale Verwaltungswerkzeuge nicht zu Verfügung.
 - Die Softwareausstattung variierte stark zwischen den Nutzenden und war nicht dokumentiert.

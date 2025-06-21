@@ -30,7 +30,8 @@ Die neuen Geräte wurden mit dem vorbereiteten Windows 11 Image betankt und vora
 ## Mein Mitwirken bei der Umsetzung und Learnings
 
 Ich habe den Vorschlag eingebracht, ein eigenes Skript zur automatisierten Erfassung der Gerätedaten zu entwickeln. Durch meine Erfahrungen mit Java und Python im Studium war diese Aufgabe eine ideale Gelegenheit, mein technisches Wissen praxisnah anzuwenden und weiter auszubauen.
-Script: https://github.com/FlorianNordhoff/Windows-11-Migration-ohne-zentrale-Verwaltung---Real-World-Projekt/blob/ddef97b91ecf8940b30533385206b400b4ee09a1/inventarisierung.py
+
+Python-Script: https://github.com/FlorianNordhoff/Windows-11-Migration-ohne-zentrale-Verwaltung---Real-World-Projekt/blob/ddef97b91ecf8940b30533385206b400b4ee09a1/inventarisierung.py
 
 Darüber hinaus wurde ich mit der Konzeption und Umsetzung des gesamten n8n-Workflows beauftragt, über den die erfassten Daten automatisch in unser ITSM-System übertragen wurden. Dies stellte meinen ersten praxisnahen Einstieg in die Arbeit mit APIs dar, eine Herausforderung, die mir nicht nur viel Spaß gemacht hat, sondern auch dazu führte, dass ich heute sicher und routiniert mit REST-Schnittstellen umgehen kann. N8n: LINK
 

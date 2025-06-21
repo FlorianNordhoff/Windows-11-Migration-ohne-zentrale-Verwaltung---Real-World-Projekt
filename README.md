@@ -16,7 +16,7 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 
 ### Erfassung der genutzten Software und Systeminformationen
 
-Da wir keinen direkten Zugriff auf die Endgeräte der Clients hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows-10-Systemen ausgelesen und dokumentiert werden konnte. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
+Da wir keinen direkten Zugriff auf die Endgeräte der Clients hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows 10 Systemen ausgelesen und dokumentiert werden konnte. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
 
 ### Erstellung des Windows 11 Images
 

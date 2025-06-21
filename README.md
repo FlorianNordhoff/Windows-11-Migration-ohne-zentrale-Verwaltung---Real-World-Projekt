@@ -36,7 +36,7 @@ Ich habe den Vorschlag eingebracht, ein eigenes Skript zur automatisierten Erfas
 
 Darüber hinaus wurde ich mit der Konzeption und Umsetzung des gesamten n8n-Workflows beauftragt, über den die erfassten Daten automatisch in unser ITSM-System übertragen wurden. Dies stellte meinen ersten praxisnahen Einstieg in die Arbeit mit APIs dar, eine Herausforderung, die mir nicht nur viel Spaß gemacht hat, sondern auch dazu führte, dass ich heute sicher und routiniert mit REST-Schnittstellen umgehen kann.
 
-Auch während der Rollout-Phase war ich aktiv eingebunden. Ich habe die neuen Windows-11-Geräte vorbereitet, betankt und eingerichtet sowie die Übergabe im direkten Gespräch mit den Endanwendern begleitet. Dadurch konnte ich nicht nur meine technischen Fähigkeiten weiterentwickeln, sondern auch wertvolle Erfahrungen in der praktischen Umsetzung von IT-Prozessen und in der Zusammenarbeit mit Nutzern sammeln.
+Auch während der Rollout-Phase war ich aktiv eingebunden. Ich habe die neuen Windows 11 Geräte vorbereitet, betankt und eingerichtet sowie die Übergabe im direkten Gespräch mit den Endanwendern begleitet. Dadurch konnte ich nicht nur meine technischen Fähigkeiten weiterentwickeln, sondern auch wertvolle Erfahrungen in der praktischen Umsetzung von IT-Prozessen und in der Zusammenarbeit mit Nutzern sammeln.
 
 Nach Abschluss des Rollouts habe ich zusätzlich einen weiteren n8n-Workflow implementiert, der mithilfe der Microsoft Graph API fehlende Geräteinformationen aus Intune automatisiert abruft und mit unserem ITSM-System abgleicht. So konnten wir eine kontinuierliche und zuverlässige Datenintegration zwischen Intune und dem ITSM sicherstellen und die Gerätedaten vollständig und aktuell halten. 
 

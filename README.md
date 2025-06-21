@@ -3,9 +3,9 @@
 
 ## Einleitung
 
-Im Rahmen eines IT-Carve-outs stand unser Unternehmen vor der Herausforderung, rund 300 Windows-10-Clients auf Windows 11 zu migrieren – und das unter erschwerten Bedingungen: ohne zentralen Zugriff auf die Endgeräte, ohne bestehende MDM-Lösungen wie Microsoft Intune (zu Beginn) und mit individuell stark variierender Softwarenutzung je Mitarbeiter.
+Im Rahmen eines IT-Carve-outs stand unser Unternehmen vor der Herausforderung, rund 300 Windows-10-Clients auf Windows 11 zu migrieren und das unter erschwerten Bedingungen: ohne zentralen Zugriff auf die Endgeräte, ohne bestehende MDM-Lösungen wie Microsoft Intune (zu Beginn) und mit individuell stark variierender Softwarenutzung je Mitarbeiter.
 
-Dieses Projekt beschreibt den vollständigen Ablauf der Migration – von der Analysephase bis zum Rollout – sowie die technischen und organisatorischen Lösungen, die wir im Laufe der Umsetzung entwickelt haben.
+Dieses Projekt beschreibt den vollständigen Ablauf der Migration – von der Analysephase bis zum Rollout sowie die technischen und organisatorischen Lösungen, die wir im Laufe der Umsetzung entwickelt haben.
 
 ## Problemstellung
 
@@ -23,7 +23,7 @@ Diese Datenbasis ermöglichte es unserem Application Manager, die tatsächlich b
 
 ### Erstellung des Windows-11-Images
 
-Ein einheitliches Windows-11-Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
+Ein einheitliches Windows-11-Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine  reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
 
 ### Paketierung zusätzlicher Software
 
@@ -31,7 +31,7 @@ Basierend auf den gesammelten Softwareprofilen wurde zusätzliche Software in mo
 
 ### Rollout-Prozess (Gerätetausch)
 
-Die neuen Geräte wurden mit dem vorbereiteten Windows-11-Image betankt und vorab in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten – insbesondere in OneDrive und in den Browser-Favoriten – korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen. Durch diese strukturierte Vorgehensweise verlief der gesamte Rollout effizient, transparent und ohne nennenswerte Störungen.
+Die neuen Geräte wurden mit dem vorbereiteten Windows-11-Image betankt und vorab in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten insbesondere in OneDrive und in den Browser-Favoriten – korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen. Durch diese strukturierte Vorgehensweise verlief der gesamte Rollout effizient, transparent und ohne nennenswerte Störungen.
 
 ## Mein Mitwirken bei der Umsetzung
 

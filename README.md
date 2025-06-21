@@ -1,13 +1,16 @@
 
 # Windows 11 Migration ohne zentrale Verwaltung
 
+## Einleitung
+
+Mit der offiziellen Ankündigung des Support-Endes für Windows 10 hat Microsoft eine strategische Neuausrichtung im Bereich der Betriebssysteme eingeleitet. Ab dem festgelegten Datum werden sicherheitsrelevante Aktualisierungen eingestellt. Dies betrifft insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Für Unternehmen ergibt sich daraus ein dringender Handlungsbedarf. Eine zeitnahe Migration auf Windows 11 ist unerlässlich, um den Schutz und die Stabilität der IT-Infrastruktur langfristig sicherzustellen.
+
+
 ## Problemstellung
 
-Microsoft hat das Support-Ende für Windows 10 angekündigt. Damit gehen erhebliche betriebliche Risiken einher, etwa das Ausbleiben sicherheitsrelevanter Updates bei Zero-Day-Schwachstellen sowie potenzielle Inkompatibilitäten mit zukünftiger Software.
+Die Durchführung dieser Migration stellte uns vor erhebliche Herausforderungen. Im Rahmen eines laufenden Carve-outs war der zentrale Zugriff auf die Endgeräte eingeschränkt. Verwaltungswerkzeuge wie Microsoft Intune standen in dieser Phase noch nicht zur Verfügung. Die eingesetzte Software variierte stark zwischen den einzelnen Nutzenden und war nicht dokumentiert. Zusätzlich war die Erfassung der Geräte im System für das IT-Service-Management unvollständig. Viele Endgeräte waren nur teilweise oder gar nicht registriert.
 
-Eine Migration auf Windows 11 war daher unumgänglich. Gleichzeitig galt es, mehrere Herausforderungen zu bewältigen. Da wir uns in einem Carve-out befanden, fehlte uns der zentrale Zugriff auf die Endgeräte via Verwaltungswerkzeuge wie Microsoft Intune standen in dieser Phase noch nicht zur Verfügung. Die Softwareanforderungen waren von Nutzer zu Nutzer sehr unterschiedlich, jedoch nicht dokumentiert. Darüber hinaus waren viele Geräte im ITSM-System entweder unvollständig erfasst oder überhaupt nicht registriert.
-
-Ziel war es, trotz dieser Einschränkungen eine stabile und möglichst reibungslose Umstellung auf Windows 11 zu realisieren.
+Trotz dieser Ausgangslage war es das Ziel, eine möglichst reibungslose Umstellung auf Windows 11 zu realisieren.
 
 ## Lösung
 
@@ -17,7 +20,7 @@ Da wir keinen direkten Zugriff auf die Endgeräte der Nutzer hatten, wurde ein P
 
 ### Erstellung des Windows 11 Images
 
-Ein einheitliches Windows-11-Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
+Ein einheitliches Windows 11 Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
 
 ### Paketierung zusätzlicher Software
 

@@ -1,16 +1,17 @@
 
 # Windows 11 Migration ohne zentrale Verwaltung
 
-## Einleitung
+## Problemstellung 
 
-Mit der offiziellen Ankündigung des Support-Endes für Windows 10 hat Microsoft eine strategische Neuausrichtung im Bereich der Betriebssysteme eingeleitet. Ab dem festgelegten Datum werden sicherheitsrelevante Aktualisierungen eingestellt. Dies betrifft insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Für Unternehmen ergibt sich daraus ein dringender Handlungsbedarf. Eine zeitnahe Migration auf Windows 11 ist unerlässlich, um den Schutz und die Stabilität der IT-Infrastruktur langfristig sicherzustellen.
+Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025 werden Updates des Betriebssystems nicht mehr kostenlos zu Verfügung gestellt. Dies öffnet insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken, die dann nicht mehr geschossen werden. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Für unser Unternehmen ergab sich daraus ein dringender Handlungsbedarf. Eine zeitnahe Migration auf Windows 11 ist unerlässlich.
 
+Die Durchführung dieser Migration stellte uns vor Herausforderungen:
 
-## Problemstellung
-
-Die Durchführung dieser Migration stellte uns vor erhebliche Herausforderungen. Im Rahmen eines laufenden Carve-outs war der zentrale Zugriff auf die Endgeräte eingeschränkt. Verwaltungswerkzeuge wie Microsoft Intune standen in dieser Phase noch nicht zur Verfügung. Die eingesetzte Software variierte stark zwischen den einzelnen Nutzenden und war nicht dokumentiert. Zusätzlich war die Erfassung der Geräte im System für das IT-Service-Management unvollständig. Viele Endgeräte waren nur teilweise oder gar nicht registriert.
-
-Trotz dieser Ausgangslage war es das Ziel, eine möglichst reibungslose Umstellung auf Windows 11 zu realisieren.
+- Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch der zentrale Zugriff auf Endgeräte stark eingeschränkt war.
+- Microsoft Intune stand in dieser Phase noch nicht zur Verfügung, was eine zentrale Verwaltung und automatisierte Verteilung unmöglich machte.
+- Ein standardisiertes Windows-11-Image sollte erstellt werden, wofür alle genutzten Anwendungen identifiziert und paketiert werden mussten.
+- Die Softwareausstattung variierte stark zwischen den Nutzenden und war nicht dokumentiert.
+- Die Paketierung der Anwendungen für die spätere Verteilung über Intune war aufgrund fehlender Standards und Informationen äußerst aufwendig.
 
 ## Lösung
 
@@ -28,7 +29,7 @@ Basierend auf den gesammelten Softwareprofilen wurde zusätzliche Software in mo
 
 ### Rollout-Prozess (Gerätetausch)
 
-Die neuen Geräte wurden mit dem vorbereiteten Windows 11 Image betankt und vorab in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten insbesondere in OneDrive und in den Browser-Favoriten korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen. Durch diese strukturierte Vorgehensweise verlief der gesamte Rollout effizient.
+Die neuen Geräte wurden mit der vorbereiteten Windows 11 Image betankt und vorab in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten insbesondere in OneDrive und in den Browser-Favoriten korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen. Durch diese strukturierte Vorgehensweise verlief der gesamte Rollout effizient.
 
 ## Mein Mitwirken bei der Umsetzung und Learnings
 

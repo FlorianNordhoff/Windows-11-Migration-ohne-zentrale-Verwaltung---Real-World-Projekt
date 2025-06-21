@@ -9,7 +9,7 @@ import requests
 import wmi
 from getmac import get_mac_address
 
-WEBHOOK_URL = "https://cunova.app.n8n.cloud/webhook/inv-update"
+WEBHOOK_URL = "xxxxxxxx"
 
 # -------------------------- Benutzer --------------------------
 def get_username():

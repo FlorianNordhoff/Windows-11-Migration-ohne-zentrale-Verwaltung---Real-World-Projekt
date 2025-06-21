@@ -15,7 +15,7 @@ Ziel war es, trotz dieser Einschränkungen eine stabile und möglichst reibungsl
 
 Da wir keinen direkten Zugriff auf die Endgeräte der Nutzer hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows-10-Systemen ausgelesen und dokumentiert werden konnte. Die Nutzer wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
 
-### Erstellung des Windows-11-Images
+### Erstellung des Windows 11 Images
 
 Ein einheitliches Windows-11-Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
 

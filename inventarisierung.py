@@ -9,7 +9,7 @@ import requests
 import wmi
 from getmac import get_mac_address
 
-WEBHOOK_URL = "xxxxxxxx"
+WEBHOOK_URL = "xxxxxxxxx"
 
 # -------------------------- Benutzer --------------------------
 def get_username():

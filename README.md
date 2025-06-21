@@ -16,7 +16,7 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 
 ### Erfassung der genutzten Software und Systeminformationen
 
-Da wir keinen direkten Zugriff auf die Endgeräte der Clients hatten, wurde ein Python-Skript erstellt, mit denen die installierte Software auf den bestehenden Windows 10 Systemen ausgelesen und an ein n8n workflow geschickt wurde der diese verarbeitet und an unser ITSM-System speichert. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
+Da kein direkter Zugriff auf die Endgeräte der Clients möglich war, wurde ein Python-Skript entwickelt, das die auf den bestehenden Windows-10-Systemen installierte Software ausliest und an einen n8n-Workflow übermittelt. Dieser verarbeitet die Daten automatisiert und speichert sie im ITSM-System. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
 
 ### Erstellung des Windows 11 Images
 

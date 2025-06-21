@@ -9,7 +9,7 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 
 - Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch etwa 250 Endgeräte nicht erfasst waren. Somit stand Microsoft Intune oder andere zentrale Verwaltungswerkzeuge für diese Geräte nicht zu Verfügung.
 - Die Softwareausstattung variierte stark zwischen den Nutzenden und war nicht dokumentiert.
-- Viele Endgeräte warenauch im unserem IT-Service-Management-System (ITSM) unvollständig oder gar nicht erfasst.
+- Viele Endgeräte waren auch in unserem IT-Service-Management-System (ITSM) unvollständig oder gar nicht erfasst.
 - Die mangelhafte Datenlage erschwerte die Planung, Priorisierung und Umsetzung der Migration erheblich.
 
 ## Lösung

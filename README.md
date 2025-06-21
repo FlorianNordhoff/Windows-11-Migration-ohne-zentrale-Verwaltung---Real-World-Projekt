@@ -21,7 +21,7 @@ Ein einheitliches Windows-11-Image wurde vorbereitet, das alle unternehmensweit 
 
 ### Paketierung zusätzlicher Software
 
-Basierend auf den gesammelten Softwareprofilen wurde zusätzliche Software in modularen Paketen organisiert. Diese Pakete konnten nach der Intune-Registrierung der Geräte gezielt einzelnen Nutzern oder Nutzergruppen zugewiesen werden. So erhielt jeder Mitarbeiter genau die Anwendungen, die er für seine tägliche Arbeit benötigt – ohne das Basisimage zu überladen.
+Basierend auf den gesammelten Softwareprofilen wurde zusätzliche Software in modularen Paketen organisiert. Diese Pakete konnten nach der Intune-Registrierung der Geräte gezielt einzelnen Nutzern oder Nutzergruppen zugewiesen werden. So erhielt jeder Mitarbeiter genau die Anwendungen, die er für seine tägliche Arbeit benötigt ohne das Basisimage zu überladen.
 
 ### Rollout-Prozess (Gerätetausch)
 

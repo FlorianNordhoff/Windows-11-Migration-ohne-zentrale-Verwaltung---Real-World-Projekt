@@ -13,8 +13,8 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 - **Zentrale Datenerfassung**  
   Automatisiertes Sammeln von Gerätedaten und installierter Software.
 
-- **Modulare Softwareverteilung**  
-  Ergänzende Softwarepakete auf Basis individueller Nutzungsprofile.
+- **Softwareverteilung**  
+  Softwarepakete auf Basis individueller Nutzungsprofile.
 
 - **Effizienter Rollout-Prozess**  
   Selbstbuchung durch Nutzer, persönliche Begleitung beim Gerätetausch und standardisierte Übergabeprozesse.

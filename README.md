@@ -18,9 +18,9 @@ Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025
 
 Da kein direkter Zugriff auf die Endgeräte der Clients möglich war, wurde ein Python-Skript entwickelt, das die auf den bestehenden Windows 10 Systemen installierte Software ausliest und an einen n8n-Workflow übermittelt. Dieser verarbeitet die Daten automatisiert und speichert sie im ITSM-System. Die Clients wurden gebeten, diesen Skript selbstständig unter Anleitung auszuführen. Auf Basis dieser Daten konnten individuelle Softwareprofile erstellt werden.
 
-### Erstellung des Windows 11 Images
+### Erstellung der Windows 11 Image
 
-Ein einheitliches Windows 11 Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für alle neuen Geräte.
+Ein einheitliches Windows 11 Image wurde vorbereitet, das alle unternehmensweit benötigten Basistools sowie vorab definierte Sicherheits- und Konfigurationseinstellungen enthielt. Die OneDrive-Integration wurde ebenfalls vorinstalliert, um eine reibungslose Synchronisation der Nutzerdaten zu ermöglichen. Dieses Image bildete die Grundlage für die Neubetankung der Geräte.
 
 ### Paketierung zusätzlicher Software
 

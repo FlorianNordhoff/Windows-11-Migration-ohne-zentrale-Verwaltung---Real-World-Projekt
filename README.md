@@ -3,7 +3,7 @@
 
 ## Problemstellung 
 
-Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025 werden Updates des Betriebssystems nicht mehr kostenlos zu Verfügung gestellt. Dies öffnet insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken, die dann nicht mehr geschossen werden. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Für unser Unternehmen ergab sich daraus ein dringender Handlungsbedarf. Eine zeitnahe Migration auf Windows 11 ist unerlässlich.
+Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025 werden Updates des Betriebssystems nicht mehr kostenlos zu Verfügung gestellt. Dies öffnet insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken, die dann nicht mehr geschossen werden. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Daher war eine zeitnahe Migration auf Windows 11 ist unerlässlich.
 
 ### Herausforderungen:
 

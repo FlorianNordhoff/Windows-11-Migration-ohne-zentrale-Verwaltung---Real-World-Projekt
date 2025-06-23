@@ -40,6 +40,7 @@ Auch während der Rollout-Phase war ich aktiv eingebunden. Ich habe die neuen Wi
 
 Nach Abschluss des Rollouts habe ich zusätzlich einen weiteren n8n-Workflow implementiert, der mithilfe der Microsoft Graph API fehlende Geräteinformationen aus Intune automatisiert abruft und mit unserem ITSM-System abgleicht. So konnten wir eine kontinuierliche und zuverlässige Datenintegration zwischen Intune und dem ITSM sicherstellen und die Gerätedaten vollständig und aktuell halten. 
 
+# Technische Arbeit
 ## Python Script: Systemdaten auslesen 
 https://github.com/FlorianNordhoff/Windows-11-Migration-ohne-zentrale-Verwaltung---Real-World-Projekt/blob/ddef97b91ecf8940b30533385206b400b4ee09a1/inventarisierung.py
 ## N8n Workflow: Erfassung der Daten und Übertragung zum ITSM-System

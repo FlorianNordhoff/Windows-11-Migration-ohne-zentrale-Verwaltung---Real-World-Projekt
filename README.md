@@ -5,6 +5,24 @@
 
 Mit der offiziellen Ankündigung des Support-Endes für Windows 10 ab 14.10.2025 werden Updates des Betriebssystems nicht mehr kostenlos zu Verfügung gestellt. Dies öffnet insbesondere neu entdeckte Schwachstellen, sogenannte Zero-Day-Sicherheitslücken, die dann nicht mehr geschossen werden. Ebenso ist die künftige Kompatibilität mit neuer Software nicht mehr gewährleistet. Daher war eine zeitnahe Migration auf Windows 11 unerlässlich.
 
+### Ziele der Migration
+
+- **Nahtloser Arbeitsablauf**  
+  Bereitstellung aller benötigten Anwendungen, damit Nutzer nach dem Gerätetausch ohne Unterbrechung weiterarbeiten können.
+
+- **Zentrale Datenerfassung**  
+  Automatisiertes Sammeln von Gerätedaten und installierter Software.
+
+- **Modulare Softwareverteilung**  
+  Ergänzende Softwarepakete auf Basis individueller Nutzungsprofile.
+
+- **Effizienter Rollout-Prozess**  
+  Selbstbuchung durch Nutzer, persönliche Begleitung beim Gerätetausch und standardisierte Übergabeprozesse.
+
+- **Automatisierte Systemintegration** 
+  Synchronisation von Gerätedaten zwischen Intune und dem ITSM zur langfristigen Datenqualitätssicherung.
+
+
 ### Herausforderungen:
 
 - Die Migration auf Windows 11 erfolgte im Kontext eines laufenden Carve-outs, wodurch etwa 250 Endgeräte nicht erfasst waren. Somit stand Microsoft Intune oder andere zentrale Verwaltungswerkzeuge für diese Geräte nicht zu Verfügung.

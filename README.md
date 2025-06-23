@@ -28,7 +28,7 @@ Basierend auf den gesammelten Softwareprofilen wurde zusätzliche Software in mo
 
 ### Rollout-Prozess (Gerätetausch)
 
-Die neuen Geräte wurden mit der vorbereiteten Windows 11 Image betankt und vorab in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten wichtigen Daten in OneDrive und in den Browser-Favoriten korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen.
+Die Geräte wurden mit der vorbereiteten Windows 11 Image vorab betankt und in Intune registriert. Über das ITSM-System konnten sich die Nutzer eigenständig einen Termin für den Rollout buchen. Beim eigentlichen Gerätetausch wurden die alten Laptops entgegengenommen. Es wurde geprüft, ob alle Daten wichtigen Daten in OneDrive und in den Browser-Favoriten korrekt synchronisiert waren. Anschließend wurde das neue Gerät gemeinsam mit dem Nutzer eingerichtet. Die Softwareverteilung erfolgte automatisiert über die zugewiesenen Intune-Gruppen.
 
 ## Mein Mitwirken bei der Umsetzung und Learnings
 
